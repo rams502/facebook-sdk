@@ -9,3 +9,6 @@ SECRET_KEY = 'keep_it_like_a_secret'
 # Database details
 SQLALCHEMY_DATABASE_URI = '{0}{1}'.format('sqlite:///',
                                           path.join(BASE_DIRECTORY, 'app.db'))
+
+## heloo changes in github
+
