@@ -4,7 +4,7 @@ from os import path
 BASE_DIRECTORY = path.abspath(path.dirname(__file__))
 DEBUG = True
 SECRET_KEY = 'keep_it_like_a_secret'
-
+# here the sample change....
 # Database details
 SQLALCHEMY_DATABASE_URI = '{0}{1}'.format('sqlite:///',
                                           path.join(BASE_DIRECTORY, 'app.db'))
